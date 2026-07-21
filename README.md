@@ -4,7 +4,13 @@
 
 # GOAT Analysis ⚽📊
 
-Dashboard interativo desenvolvido em **Power BI** para análise comparativa da carreira de **Cristiano Ronaldo, Lionel Messi e Neymar Jr.**
+GOAT Analysis é um dashboard interativo desenvolvido em **Power BI** para análise comparativa da carreira de **Cristiano Ronaldo, Lionel Messi e Neymar Jr.**
+
+O projeto foi construído a partir de uma base pública do Kaggle, enriquecida e remodelada por meio de processos de tratamento, modelagem de dados e desenvolvimento de métricas em DAX, resultando em uma solução analítica completa para exploração das estatísticas dos jogadores.
+
+<p align="center">
+    <img src="imagens/LM10GoatAnalysis.png" alt="GOAT Analysis Dashboard" width="100%">
+</p>
 
 O projeto reúne estatísticas históricas de gols, assistências, títulos, prêmios individuais e clubes defendidos pelos três jogadores, entregando uma visualização moderna, interativa e profissional para explorar suas carreiras.
 
@@ -12,7 +18,7 @@ O projeto reúne estatísticas históricas de gols, assistências, títulos, pr�
 
 ## 📂 Estrutura do Projeto
 
-- `Goals_Raw.csv` → Base principal contendo todos os gols, assistências, competições, adversários, clubes e temporadas.
+- `Goals_Raw.csv` → Base fato contendo todos os registros de gols, assistências, competições, adversários, clubes, temporadas e demais informações utilizadas nas análises.
 - `Players.csv` → Informações dos jogadores e imagens utilizadas no dashboard.
 - `Clubs.csv` → Clubes, países e escudos.
 - `Competitions.csv` → Dimensão das competições.
@@ -62,6 +68,27 @@ O projeto reúne estatísticas históricas de gols, assistências, títulos, pr�
 
 ---
 
+## 📚 Fonte dos Dados
+
+A base de dados utilizada neste projeto foi obtida através do Kaggle e posteriormente tratada, padronizada e modelada para utilização no Power BI.
+
+**Dataset utilizado:**
+
+**Messi, Neymar, Ronaldo & Lewandowski - All Goals**
+https://www.kaggle.com/datasets/hasibalmuzdadid/messi-neymar-ronaldo-lewandowski-all-goals
+
+---
+
+Durante o desenvolvimento foram realizadas diversas etapas de preparação dos dados, incluindo:
+
+- Padronização de nomes de clubes e jogadores;
+- Criação de tabelas dimensão;
+- Modelagem em Star Schema;
+- Criação de IDs relacionais;
+- Tratamento de valores ausentes;
+- Criação de colunas auxiliares para análise;
+- Inclusão de imagens via URL para jogadores e clubes.
+
 ## 🎯 Objetivo do Projeto
 
 Este projeto foi desenvolvido com foco em:
@@ -96,17 +123,17 @@ Este projeto foi desenvolvido com foco em:
 
 ## 📷 Preview
 
-### 🏠 Dashboard Principal
-
-```
-(Adicionar imagem do Dashboard Principal)
-```
+### 🏠 Dashboard
+<p align="center">
+    <img src="imagens/Cr7GoatAnalysis.png" width="48%">
+    <img src="imagens/NJ10GoatAnalysis.png" width="48%">
+</p>
 
 ### 📊 Modelo de Dados
 
-```
-(Adicionar imagem do Modelo de Dados)
-```
+<p align="center">
+    <img src="imagens/DataModel.png" width="90%">
+</p>
 
 ---
 
@@ -130,13 +157,14 @@ Este projeto foi desenvolvido com foco em:
 
 ---
 
-## 🚀 Autor
+## 👨‍💻 Autor
 
-Projeto desenvolvido por **Diego Rocha** como prática de análise de dados, modelagem em Power BI e construção de portfólio.
+**Diego Rocha**
 
-**GitHub:** https://github.com/DiegoHenriqueNR
+Data Analytics Student | SQL | Power BI | Business Intelligence
 
-**LinkedIn:** https://www.linkedin.com/in/diego-rocha-b018331b6
+- GitHub: https://github.com/DiegoHenriqueNR
+- LinkedIn: https://www.linkedin.com/in/diego-rocha-b018331b6
 
 ---
 
